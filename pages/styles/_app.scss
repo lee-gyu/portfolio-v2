@@ -1,5 +1,7 @@
 html {
-  @apply bg-black
+  @apply bg-greyhound
     font-body
-    text-white;
+    text-black
+    text-[12px]
+    lg:text-[16px];
 }

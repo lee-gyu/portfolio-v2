@@ -1,12 +1,15 @@
 import Head from 'next/head'
+import { App } from "./common/app"
 
 import "./styles/index.scss";
 
-export default function App({ Component, pageProps }) {
+export default ({ Component, pageProps }) => {
   return <>
     <Head>
       <title>Lee Gyu</title>
     </Head>
-    <Component {...pageProps} />
+    <App>
+      <Component {...pageProps} />
+    </App>
   </>
 }
