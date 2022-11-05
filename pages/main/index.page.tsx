@@ -25,3 +25,5 @@ export const MainPage: NextPage = () => {
     </div>
   </>
 }
+
+export default MainPage;
